@@ -1013,4 +1013,8 @@ public class FloatingActionMenu extends ViewGroup {
     public void setOnMenuButtonLongClickListener(OnLongClickListener longClickListener) {
         mMenuButton.setOnLongClickListener(longClickListener);
     }
+
+    public FloatingActionButton getMenuButton() {
+        return mMenuButton;
+    }
 }
